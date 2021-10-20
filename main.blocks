@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="W/mBY4jvdU=y2WdPs=rK" x="0" y="0"/></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="JIX._-yz3Op=sk{]G0s%">mySprite</variable><variable type="KIND_SpriteKind" id="uLfAQ2@10,E~-5b^TyCV">Player</variable><variable type="KIND_SpriteKind" id="9xWFhAp=uXqE,!;]+dR.">Projectile</variable><variable type="KIND_SpriteKind" id="rV^:hsK9?]OH%ubR]^S2">Food</variable><variable type="KIND_SpriteKind" id="Yt}inP1^k^Bkg7=o@Gwt">Enemy</variable></variables><block type="pxt-on-start" id="W/mBY4jvdU=y2WdPs=rK" x="50" y="50"><statement name="HANDLER"><block type="variables_set" id="/!oD|0/=5FGx[;8l^7+x"><field name="VAR" id="JIX._-yz3Op=sk{]G0s%">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="UHMK6;e;oYX3-oExX{W|"><value name="img"><shadow type="screen_image_picker" id="~kM0[Xmdrj9`E[RD2[%!"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . 3 . . . . . 
+. . . . . . . . . 3 3 . . . . . 
+. . . . . . . . . 3 . 3 . . . . 
+. . . . . . . . 3 . . 3 3 3 . . 
+. . . 3 3 3 3 . 3 . . . 3 3 . . 
+. . . . . . 3 . 3 3 . . 3 3 . . 
+. . . . . . 3 . . . 3 . . . . . 
+. . . . . . 3 . . . 3 3 . . . . 
+3 3 3 3 3 3 3 3 3 . . 3 . . . . 
+. . . . . . . . . 3 3 3 . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"~kM0[Xmdrj9`E[RD2[%!"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="(tpszcmH1m7X#}mf]0pS"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="@!!}jG]J}C7j}uz!vzzR"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="9:xS:P.Lxve!(Cx`Q)9j"><field name="VAR" id="JIX._-yz3Op=sk{]G0s%">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="5MIBmchpAY7v~0WpH@I="><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="/$g/rw5aAXL$!HUH_A9C"><field name="speed">100</field></shadow></value></block></next></block></statement></block></xml>
